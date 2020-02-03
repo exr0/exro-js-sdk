@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+
+    
+  </body>
+  <script>
+  (function() {
+    // var SDKName = window.SDKName || (window.SDKName = []);
+
+    var scr = document.createElement("script");
+    scr.type = "text/javascript";
+    scr.async = true;
+    scr.src = "./sdk.js";
+
+    var x = document.getElementsByTagName("script")[0];
+    x.parentNode.insertBefore(scr, x);
+  })();
+
+  // SDKName.push("Some Argument");
+  </script>
+
+</html>
